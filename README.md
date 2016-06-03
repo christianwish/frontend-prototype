@@ -3,7 +3,7 @@
 
 ### Install
 ```sh
-$ clone https://github.com/christianheyn/static-prototype.git
+$ git clone https://github.com/christianheyn/static-prototype.git
 $ npm install
 ```
 
