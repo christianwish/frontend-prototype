@@ -1,7 +1,7 @@
 {
   "name": "static-prototype",
   "version": "0.0.1",
-  "description": "basic frontend repo for prototypes",
+  "description": "Basic frontend repo for prototypes",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,6 @@
     "browserify": "browserify js/app.js -o dist/js/app.js",
     "watch:scss": "watch-run -p 'style/scss/**/*.scss' 'npm run compile:scss'",
     "watch:js": "watch-run -p 'js/*.js' npm run browserify",
-    "watch:app": "npm run watch:scss & npm run watch:js",
     "watch:all": "npm run watch:scss & npm run watch:js"
   },
   "author": "Christian Heyn",
