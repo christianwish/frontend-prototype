@@ -4,7 +4,7 @@
   "description": "Basic frontend repo for prototypes",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run browserify && npm run compile:scss",
     "postinstall": "npm run browserify && npm run compile:scss",
     "compile:scss": "node-sass style/scss/main.scss 'dist/css/app.css' --output",
     "browserify": "browserify js/app.js -o dist/js/app.js",
