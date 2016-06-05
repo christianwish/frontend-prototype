@@ -13,7 +13,7 @@ $ npm install
 ### Work
 ```sh
 $ npm run watch:scss
-$ npm install watch:js
+$ npm run watch:js
 ```
 *or*
 ```sh
