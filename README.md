@@ -1,5 +1,8 @@
 # static-prototype
-**Basic frontend repo for prototypes**
+[![Build Status](https://travis-ci.org/christianheyn/static-prototype.svg?branch=master)](https://travis-ci.org/christianheyn/static-prototype)
+
+**Basic repo for frontend prototypes**
+
 
 ### Install
 ```sh
@@ -16,6 +19,15 @@ $ npm install watch:js
 ```sh
 $ npm install watch:all
 ```
+
+
+### available mixins
+```scss
+// transition($task, $duration: 150ms, $wait: 0ms, $ease: ease-out)
+@include transition(left, 150ms, 0, ease-out);
+```
+
+
 
 **Author**
 [Christian Heyn](https://github.com/christianheyn)
