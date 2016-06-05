@@ -17,6 +17,7 @@
   "dependencies": {
     "browserify": "^13.0.0",
     "node-sass": "^3.4.2",
-    "watch-run": "^1.2.4"
+    "watch-run": "^1.2.4",
+    "normalize.scss": "^0.1.0"
   }
 }
