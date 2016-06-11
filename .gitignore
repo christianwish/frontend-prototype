@@ -122,3 +122,4 @@ $RECYCLE.BIN/
 
 dist/css/app.css
 dist/js/app.js
+test/dist/js/test.js
