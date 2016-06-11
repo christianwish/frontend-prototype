@@ -6,7 +6,7 @@
 
 ### Install
 ```sh
-$ git clone https://github.com/christianheyn/static-prototype.git
+$ git clone https://github.com/christianheyn/frontend-prototype.git
 $ npm install
 ```
 
@@ -14,10 +14,22 @@ $ npm install
 ```sh
 $ npm run watch:scss
 $ npm run watch:js
+$ npm run watch:js:test
 ```
 *or*
 ```sh
-$ npm install watch:all
+$ npm run watch:all
+```
+
+### Test
+```sh
+$ npm test
+```
+*or*
+```sh
+$ npm run lint:js
+$ npm run lint:js:test
+$ mocha-phantomjs test/index.html
 ```
 
 
