@@ -20,6 +20,16 @@
   },
   "author": "Christian Heyn",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christianheyn/frontend-prototype.git"
+  },
+  "keywords": [
+    "basic",
+    "kickstarter",
+    "start",
+    "base"
+  ],
   "dependencies": {
     "normalize.scss": "^0.1.0"
   },

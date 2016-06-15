@@ -1,5 +1,7 @@
 # frontend-prototype
 [![Build Status](https://travis-ci.org/christianheyn/frontend-prototype.svg?branch=master)](https://travis-ci.org/christianheyn/frontend-prototype)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 
 **Basic repo for frontend prototypes**
 
@@ -10,7 +12,7 @@ $ git clone https://github.com/christianheyn/frontend-prototype.git
 $ npm install
 ```
 
-### Work
+## Work
 ```sh
 $ npm run watch:scss
 $ npm run watch:js
@@ -21,7 +23,7 @@ $ npm run watch:js:test
 $ npm run watch:all
 ```
 
-### Test
+## Test
 ```sh
 $ npm test
 ```
@@ -39,7 +41,12 @@ $ mocha-phantomjs test/index.html
 @include transition(left, 150ms, 0, ease-out);
 ```
 
+___
 
+
+#### have fun
+
+_This repo is `commitizen` friendly. Find more information about that [here](http://commitizen.github.io/cz-cli/)_
 
 **Author**
 [Christian Heyn](https://github.com/christianheyn)
