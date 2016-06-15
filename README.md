@@ -46,7 +46,7 @@ ___
 
 #### have fun
 
-_This repo is `commitizen` friendly. Find more information about that [here](http://commitizen.github.io/cz-cli/)_
+_This repo is `commitizen` friendly. Find more information about that [here](http://commitizen.github.io/cz-cli/)._
 
 **Author**
 [Christian Heyn](https://github.com/christianheyn)
