@@ -15,7 +15,8 @@
     "watch:all": "npm run watch:scss & npm run watch:js & npm run watch:js:test",
     "analyse:css": "parker dist/css/app.css",
     "lint:js": "eslint js/**/*.js",
-    "lint:js:test": "eslint test/js/**/*.js"
+    "lint:js:test": "eslint test/js/**/*.js",
+    "commit": "git-cz"
   },
   "author": "Christian Heyn",
   "license": "ISC",
@@ -30,6 +31,8 @@
     "babelify": "^7.3.0",
     "browserify": "^13.0.0",
     "chai": "^3.5.0",
+    "commitizen": "^2.8.2",
+    "cz-conventional-changelog": "^1.1.6",
     "eslint": "^2.12.0",
     "mocha": "^2.5.3",
     "mocha-phantomjs": "^4.0.2",
@@ -38,5 +41,10 @@
     "phantomjs-prebuilt": "^2.1.7",
     "uglify-js": "^2.6.2",
     "watch-run": "^1.2.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
