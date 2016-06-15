@@ -1,5 +1,5 @@
 # frontend-prototype
-[![Build Status](https://travis-ci.org/christianheyn/static-prototype.svg?branch=master)](https://travis-ci.org/christianheyn/static-prototype)
+[![Build Status](https://travis-ci.org/christianheyn/frontend-prototype.svg?branch=master)](https://travis-ci.org/christianheyn/frontend-prototype)
 
 **Basic repo for frontend prototypes**
 
