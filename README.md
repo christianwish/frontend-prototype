@@ -42,8 +42,6 @@ $ mocha-phantomjs test/index.html
 ```
 
 ___
-[take a look](https://christianheyn.github.io/frontend-prototype/)
-___
 
 
 #### have fun
